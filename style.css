@@ -1,0 +1,43 @@
+
+.box{
+    margin: auto 0;
+    width: 800px;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.active{
+   
+}
+
+.noActive{
+    display: none;
+}
+.img1{
+    position: relative;
+    right: 400px;
+    
+}
+.img2{
+ /* display: none; */
+ position: relative;
+}
+
+.img3{
+    /* display: none; */
+    position: relative; 
+    left: -400px;  
+}
+
+.btn-left {
+    height: 50px;
+    width:50px;
+}
+
+.btn-right{
+    height: 50px;
+    width: 50px;
+}
